@@ -1,0 +1,24 @@
+// Exercise 4: Numbers and Operators
+// 1. Declare a number variable and assign it a value.
+var number1 = 20;
+
+// 2. Declare a number variable and assign it a floating number.
+var number2 = 3.5;
+
+// 3. Perform addition, subtraction, multiplication, division, modulus, and exponentiation with number variables.
+var addition = number1 + number2;
+var subtraction = number1 - number2;
+var multiplication = number1 * number2;
+var division = number1 / number2;
+var modulus = number1 % number2;
+var exponentiation = Math.pow(number1, number2); // Using Math.pow for exponentiation
+
+// 4. Print all your variables.
+console.log("Number 1:", number1);
+console.log("Number 2:", number2);
+console.log("Addition:", addition);
+console.log("Subtraction:", subtraction);
+console.log("Multiplication:", multiplication);
+console.log("Division:", division);
+console.log("Modulus:", modulus);
+console.log("Exponentiation:", exponentiation);
